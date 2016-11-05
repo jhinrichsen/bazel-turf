@@ -4,3 +4,4 @@ Try some bazel.io stuff
 ## Building
 
 $ bazel build //:A
+bazel run //B:B
