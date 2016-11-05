@@ -1,5 +1,6 @@
 java_binary(
-  name = "B",
+  name = "b",
   srcs = glob(["**/*.java"]),
   main_class = "B",
+  deps = ["//lib:a"]
 )

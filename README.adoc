@@ -3,5 +3,12 @@ Try some bazel.io stuff
 
 ## Building
 
-$ bazel build //:A
-bazel run //B:B
+----
+$ bazel build //bin:b
+----
+
+## Running
+----
+bazel run //bin:b
+----
+
