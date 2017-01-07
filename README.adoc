@@ -12,3 +12,7 @@ $ bazel build //bin:b
 bazel run //bin:b
 ----
 
+## Testing
+----
+bazel test //lib:ATest
+----

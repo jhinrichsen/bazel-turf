@@ -1,4 +1,6 @@
 
+package name.hinrichsen.jochen;
+
 import java.util.Date;
 
 public class A {
@@ -6,6 +8,10 @@ public class A {
 
   public Date getNow() {
     return now;
+  }
+
+  static int twice(int n) {
+    return 2 * n;
   }
 }
 
